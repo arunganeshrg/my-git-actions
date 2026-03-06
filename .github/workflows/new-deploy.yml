@@ -8,7 +8,7 @@ jobs:
         run: |
           echo "Welcome to the push deployment"
           echo "Running the steps"
-          echo "Closing the deployment
+          echo "Closing the deployment"
   my-job2:
     runs-on: ubuntu-22.04
     steps:
