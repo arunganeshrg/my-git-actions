@@ -1,0 +1,15 @@
+name: my-second-workflow
+on: push
+jobs:
+  my-codepush-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step
+        run: echo "Code is pushed to main"
+      - name: second-step
+        run: echo "Job is getting completed"
+      - name: last-step
+        run: echo "Job completed"
+    
+  
+  
