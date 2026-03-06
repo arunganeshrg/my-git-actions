@@ -1,0 +1,21 @@
+name: new-deploy
+on: push
+jobs:
+  my-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcoming the deployment code
+        run: |
+          echo "Welcome to the push deployment"
+          echo "Running the steps"
+          echo "Closing the deployment
+  my-job2:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Welcoming the second job
+        run: |
+          echo "Second job is running"
+          echo "Second job is closing"
+        
+        
+  
