@@ -1,9 +1,12 @@
 name: matrix-workflow
-on: push
-workflow_dispatch:
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
   build:
-    continue-on-error:
+    continue-on-error: true
     strategy:
       matrix:
         runners-os: [ubuntu-latest, windows-latest]
