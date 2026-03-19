@@ -1,5 +1,6 @@
 name: matrix-workflow
 on: push
+workflow_dispatch:
 jobs:
   build:
     continue-on-error:
